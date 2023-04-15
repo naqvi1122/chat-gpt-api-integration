@@ -1,0 +1,35 @@
+/* Style for Chatgpt component */
+.Chatgpt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  input[type=text] {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  input[type=text]:focus {
+    outline: none;
+    border-bottom-color: #555;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
